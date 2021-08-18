@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0 ;
+}
+.container{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main>input{
+    width: 300px;
+    font-size: 24px;
+}
+.button{
+    padding: 5px 15px;
+    font-size: 24px;
+    border: 1px solid #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+}
+.button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.mt{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.img{
+    margin-top: 15px;}
+.img>img{
+    max-width: 1000px;
+}
+.result{
+    font-size: 24px;
+    text-align: center;
+}
